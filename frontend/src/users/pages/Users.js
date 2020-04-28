@@ -8,7 +8,7 @@ const Users = () => {
 			id: 'u1',
 			name: 'Vietokok',
 			image: 'https://picsum.photos/200/300',
-			places: 3,
+			places: 2,
 		},
 	];
 
