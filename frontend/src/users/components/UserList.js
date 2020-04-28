@@ -4,6 +4,7 @@ import UserItem from './UserItem';
 import Card from '../../shared/components/UIElements/Card';
 import './UserList.css';
 
+// container UserItem
 const UserList = (props) => {
 	if (props.items.length === 0) {
 		return (

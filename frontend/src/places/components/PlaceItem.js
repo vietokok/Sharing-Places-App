@@ -3,6 +3,7 @@ import React from 'react';
 import Card from '../../shared/components/UIElements/Card';
 import './PlaceItem.css';
 
+// render list places by user id
 const PlaceItem = (props) => {
 	return (
 		<li className="place-item">

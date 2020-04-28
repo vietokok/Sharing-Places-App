@@ -6,6 +6,7 @@ import Card from '../../shared/components/UIElements/Card';
 
 import './UserItem.css';
 
+// to render users
 const UserItem = (props) => {
 	return (
 		<li className="user-item">

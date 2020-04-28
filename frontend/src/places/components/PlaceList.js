@@ -5,6 +5,7 @@ import Card from '../../shared/components/UIElements/Card';
 import './PlaceList.css';
 import PlaceItem from './PlaceItem';
 
+// container PlaceItem Component
 const PlaceList = (props) => {
 	if (props.items.length === 0) {
 		return (

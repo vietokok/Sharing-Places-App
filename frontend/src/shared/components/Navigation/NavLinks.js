@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 import './NavLinks.css';
 
+// the links in navigation
 const NavLinks = (props) => {
 	return (
 		<ul className="nav-links">
