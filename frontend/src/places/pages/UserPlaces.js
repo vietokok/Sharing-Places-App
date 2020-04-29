@@ -19,13 +19,13 @@ const DUMMY_PLACES = [
 	},
 	{
 		id: 'p2',
-		title: 'Empire State Building',
-		description: 'One of most famous sky scrapers in the world!',
+		title: 'Bình Trù',
+		description: 'My village!',
 		imageUrl: 'https://picsum.photos/200/300',
-		address: '20 W 34th St, New Y',
+		address: 'Dương Quang Gia Lâm Hanoi',
 		location: {
-			lat: 40.7484405,
-			lng: -73.9878531,
+			lat: 21.0109844,
+			lng: 105.9874034,
 		},
 		creator: 'u2',
 	},
