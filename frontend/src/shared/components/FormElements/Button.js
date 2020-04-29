@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import './Button.css';
 
 const Button = (props) => {
+	// <a></a> html button
 	if (props.href) {
 		return (
 			<a
@@ -16,6 +17,8 @@ const Button = (props) => {
 			</a>
 		);
 	}
+
+	// Link of react router dom button
 	if (props.to) {
 		return (
 			<Link
@@ -29,6 +32,7 @@ const Button = (props) => {
 			</Link>
 		);
 	}
+	// normal button
 	return (
 		<button
 			className={`button button--${props.size || 'default'} ${
