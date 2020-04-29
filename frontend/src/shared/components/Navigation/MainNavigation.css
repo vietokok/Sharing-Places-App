@@ -7,6 +7,7 @@
     flex-direction: column;
     justify-content: space-around;
     margin-right: 2rem;
+    outline: none;
     cursor: pointer;
 }
 
