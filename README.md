@@ -1,1 +1,1 @@
-### Sharing Places Application
+### Learning MERN Stack
