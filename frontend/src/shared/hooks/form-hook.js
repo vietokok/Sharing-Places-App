@@ -5,6 +5,10 @@ const formReducer = (state, action) => {
 		case 'INPUT_CHANGE':
 			let formIsValid = true;
 			for (const inputId in state.inputs) {
+				// if field not exist
+				if (!state.inputs[inputId]) {
+					continue;
+				}
 				// if key in data equals inputId of action function
 				if (inputId === action.inputId) {
 					formIsValid = formIsValid && action.isValid;
